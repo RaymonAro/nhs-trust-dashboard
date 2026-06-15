@@ -56,3 +56,10 @@ def load_data():
         ["RFS","Chesterfield Royal","CHESTERFIELD ROYAL HOSPITAL NHS FOUNDATION TRUST","E56000031","East Midlands","E54000058","Derby and Derbyshire","E40000011","Midlands",53.23621,-1.40005,"United Kingdom"],
         ["RGM","Royal Papworth","ROYAL PAPWORTH HOSPITAL NHS FOUNDATION TRUST","E56000035","East of England","E54000056","Cambridgeshire and Peterborough","E40000007","East of England",52.17352,0.136046,"United Kingdom"],
         ["RGN","North West Anglia","NORTH WEST ANGLIA NHS FOUNDATION TRUST","E56000035","East of England","E54000056","Cambridgeshire and Peterborough","E40000007","East of England",52.58392,-0.27939,"United Kingdom"],
+["RGP","James Paget University","JAMES PAGET UNIVERSITY HOSPITALS NHS FOUNDATION TRUST","E56000035","East of England","E54000022","Norfolk and Waveney","E40000007","East of England",52.56167,1.71798,"United Kingdom"],
+["RGR","West Suffolk,WEST SUFFOLK NHS FOUNDATION TRUST","E56000035","East of England","E54000023","Suffolk and North East Essex","E40000007","East of England",52.23166,0.709176,"United Kingdom"],
+["RGT","Cambridge University,CAMBRIDGE UNIVERSITY HOSPITALS NHS FOUNDATION TRUST","E56000035","East of England","E54000056","Cambridgeshire and Peterborough","E40000007","East of England",52.17374,0.139114,"United Kingdom"],
+["RH5","Somerset,SOMERSET NHS FOUNDATION TRUST","E56000033","Somerset, Wiltshire, Avon and Gloucestershire","E54000038","Somerset","E40000006","South West",51.01157,-3.1217,"United Kingdom"],
+["RH8","Royal Devon University","ROYAL DEVON UNIVERSITY HEALTHCARE NHS FOUNDATION TRUST","E56000014","Peninsula","E54000037","Devon","E40000006","South West",50.7167,-3.50668,"United Kingdom"],
+["RHM","University Southampton","UNIVERSITY HOSPITAL SOUTHAMPTON NHS FOUNDATION TRUST","E56000016","Wessex","E54000042","Hampshire and Isle of Wight","E40000005","South East",50.93302,-1.4351,"United Kingdom"],
+["RHQ","Sheffield","SHEFFIELD TEACHING HOSPITALS NHS FOUNDATION TRUST","E56000025","South Yorkshire and Bassetlaw","E54000061","South Yorkshire","E40000012","North East and Yorkshire",53.40982,-1.45597,"United Kingdom"]
