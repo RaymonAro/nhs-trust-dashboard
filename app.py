@@ -117,15 +117,14 @@ if not selected_regions:
 else:
     filtered_df = df[df["NHSER_NM"].isin(selected_regions)]
 
-#5. Display Analytical KPI Metrics
+# 5. Display Analytical KPI Metrics
 st.subheader("📊 Operational Baseline Matrix")
 k1, k2, k3, k4 = st.columns(4)
 k1.metric("Selected Health Providers", len(filtered_df))
-k2.metric("Est. Population Covered", f"
-{filtered_df['Est_Regional_Population_M'].sum():.1f}M")
+k2.metric("Est. Population Covered", f"{filtered_df['Est_Regional_Population_M'].sum():.1f}M")
 k3.metric("Avg Deprivation Index", f"{filtered_df['Deprivation_Index_Score'].mean():.1f}")
-k4.metric("Total Annual Admissions Base", f"
-{filtered_df['Baseline_Annual_Admissions_K'].sum():.1f}K")
+k4.metric("Total Annual Admissions Base", f"{filtered_df['Baseline_Annual_Admissions_K'].sum():.1f}K")
+
 
 st.markdown("---")
 
