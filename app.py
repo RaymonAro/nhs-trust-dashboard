@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-# Set up page configurations
+# 1. Set up browser page configurations
 st.set_page_config(page_title="NHS Trust Advanced Analytics & Forecasting", layout="wide")
 st.title("🏥 NHS Trust Advanced Analytics & Predictive Hub")
 
