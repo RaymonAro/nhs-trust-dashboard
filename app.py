@@ -7,10 +7,9 @@ import plotly.express as px
 st.set_page_config(page_title="NHS Trust Advanced Analytics & Forecasting", layout="wide")
 st.title("🏥 NHS Trust Advanced Analytics & Predictive Hub")
 
-# 1. Load Data
+# 2. Load Complete Escaped Data Matrix
 @st.cache_data
 def load_data():
-    # Structural row matrix completely bypassing multi-line quote syntax vulnerabilities
     columns = ["TRUST_CD", "TRUST_NM", "TRUST_NM_LONG", "CAL_CD", "CAL_NM", "ICB_CD", "ICB_NM", "NHSER_CD", "NHSER_NM", "LAT", "LONG", "country"]
     data_rows = [
         ["NYG","Sussex Dermatology Service","SUSSEX DERMATOLOGY SERVICE","E56000011","Kent and Medway","E54000032","Kent and Medway","E40000005","South East",50.81932,-0.36458,"United Kingdom"],
